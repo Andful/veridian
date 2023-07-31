@@ -379,7 +379,7 @@ pub fn parse(
             &includes,
             false,
             // FIXME: not sure if this is the right thing to do
-            true
+            true,
         ) {
             Ok((syntax_tree, _)) => {
                 debug!("parse complete of {}", uri);
